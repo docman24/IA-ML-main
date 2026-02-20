@@ -1,14 +1,11 @@
 # IA-y-ML
-Link video: https://youtu.be/gQiMBOa2T-8
+According to Colombia’s Ministry of Environment and Sustainable Development, in 2022 the pharmaceutical chemical industry released about 1.2 million tons of air pollutants, representing roughly 2% of the country’s total emissions.
 
-## Probelmatica
-Según el Ministerio de Ambiente y Desarrollo Sostenible,en 2022 la industria química farmacéutica en Colombia emitió, 1.2 millones de toneladas de gases contaminantes representando el 2% de las emisiones totales del país.
+An estimated 2 million workers in Colombia are exposed to airborne contaminants in the workplace. As a result, organizations monitor gas concentrations in work environments to warn employees when exposure levels become unsafe.
 
-Al rededor de 2 millones detrabajadores colombianos están expuestos a gases contaminantes en el lugar de trabajo. Por esta razón se realizan distintos sensados de los niveles de gases en el entorno laboral para alertar a los trabajadores si su exposición es damisiado alta.
+These monitoring systems rely on multiple sensors with different cost and performance profiles. One of the most accurate options is the MQ135, but its price can be a barrier compared with lower-cost alternatives.
 
-En estos sensos se implementas distintos sensores, los cuales tienen distintos costos. Uno de los mejores sensores es el MQ135, pero su accesibilidad en cuanto a precio no es la mejor en comparación con otros senores.
+To address this, this project proposes predicting the readings of the higher-cost sensor using data from cheaper sensors. This approach can expand monitoring coverage and increase environmental insight without sacrificing measurement accuracy.
 
-Por lo expuesto anteriormente, se plante predecir el valor del sensor mas caro con el uso de los otros sensores para poder sensar un espacio aun mas amplio y tener mayor información del entorno sin sacrificar precisión en las medidas.
-
-## Objetivo General
-Este proyecto tiene como objetivo crear un modelo de regresion, con ell cual a partir de satos de sensores de gases de bajo costo se pueda dar el valor de un sensor de mas alto costo.
+Overall Objective
+Build a regression model that estimates a high-cost gas sensor’s readings using data collected from low-cost gas sensors.
